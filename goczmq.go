@@ -14,8 +14,7 @@
 package goczmq
 
 /*
-#cgo !windows LDFLAGS: -static -static-libstdc++ -static-libgcc -L/usr/local/lib -L/usr/lib64/ -l:libczmq.a -l:libzmq.a -l:libsodium.a -l:libstdc++.a
-#cgo !windows CFLAGS: -static -static-libstdc++ -static-libgcc
+#cgo !windows LDFLAGS: -static -static-libgcc -static-libstdc++ -L/data/projects/phd_stuff/courses/adv_os/project/glibc-2.28/build -L/usr/local/lib -L/usr/lib64/  -l:libczmq.a -l:libzmq.a -l:libsodium.a -l:libstdc++.a
 #cgo windows LDFLAGS: -lws2_32 -liphlpapi -lrpcrt4 -lsodium -lzmq -lczmq
 #cgo windows CFLAGS: -Wno-pedantic-ms-format -DLIBCZMQ_EXPORTS -DZMQ_DEFINED_STDINT -DLIBCZMQ_EXPORTS -DZMQ_BUILD_DRAFT_API
 
