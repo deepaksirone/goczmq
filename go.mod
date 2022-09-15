@@ -1,3 +1,3 @@
-module github.com/deepaksirone/goczmq/v4
+module github.com/deepaksirone/goczmq
 
 go 1.12
